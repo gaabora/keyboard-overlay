@@ -25,7 +25,7 @@ tauri-build = { version = "1.5.1", features = [] }
 [dependencies]
 shared = { path = "../shared" }
 kdlize = { path = "../kdlize" }
-kdl = { version = "6.0.0", git = "https://github.com/kdl-org/kdl-rs" }
+kdl = { version = "^6" }
 
 anyhow = "1.0"
 thiserror = "1.0"
