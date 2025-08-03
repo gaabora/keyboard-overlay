@@ -12,7 +12,7 @@ wasm = ["web-sys", "wasm-bindgen"]
 
 [dependencies]
 kdlize = { path = "../kdlize" }
-kdl = { version = "5.0.0-alpha.0", git = "https://github.com/kdl-org/kdl-rs" }
+kdl = { version = "6.0.0", git = "https://github.com/kdl-org/kdl-rs" }
 
 log = { version = "0.4", features = ["std", "serde"] }
 simplelog = "0.12"
